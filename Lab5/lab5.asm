@@ -1,7 +1,7 @@
 ;Sa se citeasca de la intrarea standard doua numere naturale (a, b, pozitive, mai mici decat 65535, a mai mic decat b) 
 ;si sa se calculeze diferenta R= b - a (aceasta nu trebuie afisata pe ecran). 
 
- assume cs:text,ds:data
+assume cs:text,ds:data
 data SEGMENT
 
 a db 5,?,5 dup(0)
