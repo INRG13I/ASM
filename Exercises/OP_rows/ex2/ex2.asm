@@ -1,3 +1,9 @@
+;Se dau doua siruri de octeti S1 si S2 de aceeasi lungime. Sa se construiasca sirul D astfel: fiecare element de pe pozitiile pare din D este suma elementelor de pe pozitiile corespunzatoare din S1 si S2, iar fiecare element de pe pozitiile impare are ca si valoare diferenta elementelor de pe pozitiile corespunzatoare din S1 si S2. 
+;Exemplu:
+;S1: 1, 2, 3, 4
+;S2: 5, 6, 7, 8
+;D: 6, -4, 10, -4
+
 assume cs:text, ds:data
 data SEGMENT
 

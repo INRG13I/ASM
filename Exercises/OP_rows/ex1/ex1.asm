@@ -1,3 +1,7 @@
+;Se da un sir de octeti S de lungime l. Sa se construiasca sirul D de lungime l-1 astfel incat elementele din D sa reprezinte produsul dintre fiecare 2 elemente consecutive S(i) si S(i+1) din S. 
+;Exemplu:
+;S: 1, 2, 3, 4
+;D: 2, 6, 12
 assume cs:text,ds:data
 data SEGMENT
 

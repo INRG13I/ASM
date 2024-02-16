@@ -1,3 +1,12 @@
+;Se da un sir de cuvinte s. Sa se construiasca sirul de octeti d, astfel incat d sa contina pentru fiecare pozitie din s:
+;- numarul de biti de 0, daca numarul este negativ
+;- numarul de biti de 1, daca numarul este pozitiv
+;Exemplu:
+;s: -22, 145, -48, 127
+;in binary: 
+;1111111111101010, 10010001, 1111111111010000, 1111111
+;d: 3, 3, 5, 7
+
 assume cs:text,ds:data
 data SEGMENT
 
